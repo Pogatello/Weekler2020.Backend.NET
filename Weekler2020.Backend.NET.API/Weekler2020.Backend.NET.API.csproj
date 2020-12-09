@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Weekler2020.Backend.NET.IoC\Weekler2020.Backend.NET.IoC.csproj" />
+    <ProjectReference Include="..\Weekler2020.Backend.NET.Swagger\Weekler2020.Backend.NET.Swagger.csproj" />
+  </ItemGroup>
+
+
+</Project>

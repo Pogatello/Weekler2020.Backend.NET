@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapping\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Weekler2020.Backend.NET.Contract\Weekler2020.Backend.NET.Contract.csproj" />
+    <ProjectReference Include="..\Weekler2020.Backend.NET.Model\Weekler2020.Backend.NET.Model.csproj" />
+  </ItemGroup>
+
+</Project>

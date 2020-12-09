@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.Service", "Weekler2020.Backend.NET.Service\Weekler2020.Backend.NET.Service.csproj", "{46053DD8-74B3-4E57-A04B-8B46BDE3B8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.Repository", "Weekler2020.Backend.NET.Repository\Weekler2020.Backend.NET.Repository.csproj", "{F9AE46A2-E616-409C-AC2F-635024BAD17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.RepositoryMock", "Weekler2020.Backend.NET.RepositoryMock\Weekler2020.Backend.NET.RepositoryMock.csproj", "{45095611-2C1D-4F7E-A6B8-318BC6133947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.Model", "Weekler2020.Backend.NET.Model\Weekler2020.Backend.NET.Model.csproj", "{BB041631-4E4B-4CE0-8EF7-7C35268F677A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.Messaging", "Weekler2020.Backend.NET.Messaging\Weekler2020.Backend.NET.Messaging.csproj", "{4949E59E-DCC6-4486-ABC7-08814FFCC3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.IoC", "Weekler2020.Backend.NET.IoC\Weekler2020.Backend.NET.IoC.csproj", "{4AD2EB3A-A77A-4323-9B79-AB39653BC167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.Infrastructure", "Weekler2020.Backend.NET.Infrastructure\Weekler2020.Backend.NET.Infrastructure.csproj", "{3921894A-B067-4C1E-8F5D-8541CABA63DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.Contract", "Weekler2020.Backend.NET.Contract\Weekler2020.Backend.NET.Contract.csproj", "{84FE76DB-BBC6-4AE9-9FFB-AA796304F731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.API", "Weekler2020.Backend.NET.API\Weekler2020.Backend.NET.API.csproj", "{1798F76B-20D2-466E-8D43-F4B1321C900F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekler2020.Backend.NET.Swagger", "Weekler2020.Backend.NET.Swagger\Weekler2020.Backend.NET.Swagger.csproj", "{10ED17A9-BDBA-440F-8FE0-31362EFC06C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46053DD8-74B3-4E57-A04B-8B46BDE3B8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46053DD8-74B3-4E57-A04B-8B46BDE3B8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46053DD8-74B3-4E57-A04B-8B46BDE3B8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46053DD8-74B3-4E57-A04B-8B46BDE3B8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AE46A2-E616-409C-AC2F-635024BAD17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AE46A2-E616-409C-AC2F-635024BAD17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AE46A2-E616-409C-AC2F-635024BAD17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AE46A2-E616-409C-AC2F-635024BAD17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45095611-2C1D-4F7E-A6B8-318BC6133947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45095611-2C1D-4F7E-A6B8-318BC6133947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45095611-2C1D-4F7E-A6B8-318BC6133947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45095611-2C1D-4F7E-A6B8-318BC6133947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB041631-4E4B-4CE0-8EF7-7C35268F677A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB041631-4E4B-4CE0-8EF7-7C35268F677A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB041631-4E4B-4CE0-8EF7-7C35268F677A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB041631-4E4B-4CE0-8EF7-7C35268F677A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4949E59E-DCC6-4486-ABC7-08814FFCC3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4949E59E-DCC6-4486-ABC7-08814FFCC3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4949E59E-DCC6-4486-ABC7-08814FFCC3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4949E59E-DCC6-4486-ABC7-08814FFCC3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD2EB3A-A77A-4323-9B79-AB39653BC167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD2EB3A-A77A-4323-9B79-AB39653BC167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD2EB3A-A77A-4323-9B79-AB39653BC167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD2EB3A-A77A-4323-9B79-AB39653BC167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3921894A-B067-4C1E-8F5D-8541CABA63DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3921894A-B067-4C1E-8F5D-8541CABA63DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3921894A-B067-4C1E-8F5D-8541CABA63DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3921894A-B067-4C1E-8F5D-8541CABA63DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84FE76DB-BBC6-4AE9-9FFB-AA796304F731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FE76DB-BBC6-4AE9-9FFB-AA796304F731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FE76DB-BBC6-4AE9-9FFB-AA796304F731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FE76DB-BBC6-4AE9-9FFB-AA796304F731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1798F76B-20D2-466E-8D43-F4B1321C900F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1798F76B-20D2-466E-8D43-F4B1321C900F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1798F76B-20D2-466E-8D43-F4B1321C900F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1798F76B-20D2-466E-8D43-F4B1321C900F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ED17A9-BDBA-440F-8FE0-31362EFC06C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ED17A9-BDBA-440F-8FE0-31362EFC06C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ED17A9-BDBA-440F-8FE0-31362EFC06C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ED17A9-BDBA-440F-8FE0-31362EFC06C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A865ACC-DF69-4F60-87C0-93BE6ED4510F}
+	EndGlobalSection
+EndGlobal

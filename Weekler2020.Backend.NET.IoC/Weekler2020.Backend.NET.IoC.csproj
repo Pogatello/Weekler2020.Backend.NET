@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Weekler2020.Backend.NET.RepositoryMock\Weekler2020.Backend.NET.RepositoryMock.csproj" />
+    <ProjectReference Include="..\Weekler2020.Backend.NET.Repository\Weekler2020.Backend.NET.Repository.csproj" />
+    <ProjectReference Include="..\Weekler2020.Backend.NET.Service\Weekler2020.Backend.NET.Service.csproj" />
+  </ItemGroup>
+
+</Project>
